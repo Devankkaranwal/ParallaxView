@@ -16,6 +16,9 @@
 		133356B12C314BF300C88595 /* ParallaxViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133356B02C314BF300C88595 /* ParallaxViewTests.swift */; };
 		133356BB2C314BF300C88595 /* ParallaxViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133356BA2C314BF300C88595 /* ParallaxViewUITests.swift */; };
 		133356BD2C314BF300C88595 /* ParallaxViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133356BC2C314BF300C88595 /* ParallaxViewUITestsLaunchTests.swift */; };
+		133356CA2C314C2D00C88595 /* ParallaxScreen1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133356C92C314C2D00C88595 /* ParallaxScreen1ViewController.swift */; };
+		133356CC2C314C5200C88595 /* ParallaxScreen2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133356CB2C314C5200C88595 /* ParallaxScreen2ViewController.swift */; };
+		136E67D52C31536400B2AD3B /* ParallaxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136E67D42C31536400B2AD3B /* ParallaxView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		133356B62C314BF300C88595 /* ParallaxViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParallaxViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		133356BA2C314BF300C88595 /* ParallaxViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxViewUITests.swift; sourceTree = "<group>"; };
 		133356BC2C314BF300C88595 /* ParallaxViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		133356C92C314C2D00C88595 /* ParallaxScreen1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxScreen1ViewController.swift; sourceTree = "<group>"; };
+		133356CB2C314C5200C88595 /* ParallaxScreen2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxScreen2ViewController.swift; sourceTree = "<group>"; };
+		136E67D42C31536400B2AD3B /* ParallaxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParallaxView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,9 @@
 				133356992C314BEB00C88595 /* AppDelegate.swift */,
 				1333569B2C314BEB00C88595 /* SceneDelegate.swift */,
 				1333569D2C314BEB00C88595 /* ViewController.swift */,
+				136E67D42C31536400B2AD3B /* ParallaxView.swift */,
+				133356C92C314C2D00C88595 /* ParallaxScreen1ViewController.swift */,
+				133356CB2C314C5200C88595 /* ParallaxScreen2ViewController.swift */,
 				1333569F2C314BEB00C88595 /* Main.storyboard */,
 				133356A22C314BF200C88595 /* Assets.xcassets */,
 				133356A42C314BF200C88595 /* LaunchScreen.storyboard */,
@@ -259,8 +268,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				1333569E2C314BEB00C88595 /* ViewController.swift in Sources */,
+				136E67D52C31536400B2AD3B /* ParallaxView.swift in Sources */,
 				1333569A2C314BEB00C88595 /* AppDelegate.swift in Sources */,
 				1333569C2C314BEB00C88595 /* SceneDelegate.swift in Sources */,
+				133356CA2C314C2D00C88595 /* ParallaxScreen1ViewController.swift in Sources */,
+				133356CC2C314C5200C88595 /* ParallaxScreen2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
